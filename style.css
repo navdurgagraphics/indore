@@ -295,7 +295,7 @@ section {
 
 /* --- Reviews Section --- */
 #reviews {
-    background-color: var(--light-slate);
+    background-color: var(--black);
     color: var(--dark-blue);
     overflow: hidden;
 }
@@ -519,4 +519,5 @@ section {
         flex-direction: column;
         gap: 20px;
     }
+
 }
