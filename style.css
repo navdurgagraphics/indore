@@ -295,13 +295,13 @@ section {
 
 /* --- Reviews Section --- */
 #reviews {
-    background-color: var(--black);
-    color: var(--dark-blue);
+    background-color: var(--dark-blue);
+    color: var(--white);
     overflow: hidden;
 }
 
 #reviews .section-title {
-    color: var(--dark-blue);
+    color: var(--white);
 }
 
 .reviews-slider {
@@ -312,11 +312,11 @@ section {
 
 .reviews-track {
     display: flex;
-    animation: scroll 60s linear infinite;
+    animation: scroll 20s linear infinite;
 }
 
 .reviews-slider:hover .reviews-track {
-    animation-play-state: paused;
+    animation-play-state: running;
 }
 
 .review-card {
@@ -412,10 +412,11 @@ section {
 }
 
 .contact-details a:hover {
-    color: var(--dark-blue);
+    color: var(--white);
 }
 
 .contact-details .btn-primary {
+    color: var(--white);
     margin-top: 20px;
 }
 
