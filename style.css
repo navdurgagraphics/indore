@@ -418,7 +418,7 @@ section {
 }
 
 .contact-details a:hover {
-    color: var(--white);
+    color: var(--black);
 }
 
 .contact-details .btn-primary {
@@ -528,3 +528,4 @@ section {
     }
 
 }
+
