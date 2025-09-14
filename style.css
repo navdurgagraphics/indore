@@ -71,13 +71,19 @@ section {
 }
 
 .logo {
-    font-size: 1.8rem;
+    font-size: 1.8rem; /* Retained for text part if needed or adjusted */
     font-weight: 700;
     color: var(--dark-blue);
     text-decoration: none;
+    display: flex; /* Make the logo (container) a flex container */
+    align-items: center; /* Vertically align image and text */
 }
 
-.nav-links {
+.logo-img {
+    height: 40px; /* Adjust this value as needed for your logo's desired height */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some spacing between the logo image and the text */
+}.nav-links {
     list-style: none;
     display: flex;
 }
